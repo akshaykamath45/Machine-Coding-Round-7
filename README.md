@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Trip Advisor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Trip Advisor is a web application that allows users to explore different destinations around the world. Users can browse continents, countries, and view detailed information about specific destinations. The app is built using React JS and provides a user-friendly interface for an enhanced travel experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+The Trip Advisor app offers the following features:
 
-### `npm start`
+### Continents Category Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On this page, users can select a continent they are interested in exploring. The page displays a list of available continents, allowing users to easily navigate and choose their preferred continent.
+![image](https://github.com/akshaykamath45/Machine-Coding-Round-7/assets/73344382/d6ed9ff4-0b6c-41b6-b010-7d2e3b1f4b1c)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Country Category Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This page provides a category-wise view of countries within the selected continent. Users can select a country to further narrow down their search. The page displays a list of available countries within the chosen continent.
+![image](https://github.com/akshaykamath45/Machine-Coding-Round-7/assets/73344382/7bc6b9a2-7680-4ded-bfd4-b67631c8b3b6)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### List Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The List Page offers users a comprehensive view of destinations based on the selected country. It presents the destinations in an organized manner, utilizing cards or a grid layout. Each destination card provides summary information to help users quickly evaluate their options.
+![image](https://github.com/akshaykamath45/Machine-Coding-Round-7/assets/73344382/92f7aa69-ecd9-4a1e-a9ec-2a118f7578d5)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Detail Page
 
-### `npm run eject`
+The Detail Page offers users detailed information about a specific destination. Users can access images, descriptions, ratings, reviews, and other relevant details. Additionally, a website link is provided, which opens in a new tab for users to explore more about the destination.
+![image](https://github.com/akshaykamath45/Machine-Coding-Round-7/assets/73344382/4d27564e-d413-4324-8dc4-51fee990bb74)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Mobile Responsive
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I have tried to make this web app mobile responsive. Users can access the app from their smartphones or tablets, ensuring a seamless browsing experience across different screen sizes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/akshaykamath45/Machine-Coding-Round-7/assets/73344382/777f729c-5a40-445c-8b47-b62010eb30ed)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
